@@ -1,0 +1,3 @@
+all: pdf docx
+pdf: report.md
+        pandoc report 
